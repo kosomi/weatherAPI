@@ -1,0 +1,11 @@
+<ul class="address-list text-center" ng-repeat="location in mainCtrl.localResponse">
+  <li>
+  	<a href="" ng-click="mainCtrl.fetchWeather(location.geometry.location.lat, location.geometry.location.lng)">{{location.formatted_address}}</a>
+  </li>
+  <div>
+  	{{location}}
+  </div>
+</ul>
+
+
+ 

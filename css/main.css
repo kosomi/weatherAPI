@@ -1,0 +1,41 @@
+body {
+	background: url(../images/cloud-bg.jpg);
+	background-size: cover;
+}
+.main-container {
+	margin-top: 100px;
+}
+.white-bg {
+	background-color: rgba(255,255,255,.7);
+	min-height: 1400px;
+	border-radius: 5px;
+	padding-bottom: 50px;
+}
+.sun-icon {
+	height: 200px;
+}
+.fa-sun-o {
+	margin: 30 auto;
+	height: 100%;
+}
+.location-search {
+	width: 90%;
+	padding: 0 128px;
+	z-index: 99;
+}
+.location-search input {
+	width: 70%;
+}
+.address-list {
+	margin-top: 30px;
+}
+.address-list li {
+	list-style: none;
+}
+.address-list li a {
+	text-decoration: none;
+	color: black;
+}
+.address-list li a:hover {
+	color: white;
+}
